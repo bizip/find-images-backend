@@ -1,0 +1,38 @@
+{
+  "name": "find-images-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "14.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizip/find-images-backend.git"
+  },
+  "author": "Bizimungu Pascal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizip/find-images-backend/issues"
+  },
+  "homepage": "https://github.com/bizip/find-images-backend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "node-fetch": "^2.6.1"
+  }
+}
